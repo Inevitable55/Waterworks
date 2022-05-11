@@ -1,0 +1,88 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body{
+    /* The image used */
+    background-image: url("back.png");
+    transition: all 1s ease;
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container{
+   height: 1.5cm;
+   width: 60%;
+   margin-left: 5mm;
+   margin-top:5mm ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 160px;
+    height: auto;
+}
+.nav-links{
+    padding-top: 3mm;
+    height: 8mm;
+    width: 12cm;
+    position: absolute; right: 40%;
+    color: white;
+    text-align: center;
+}
+
+.nav-links a{
+    font-family: myfont;
+   display: inline;
+   
+  text-decoration: none;
+  margin-right: 1.5cm;
+  margin-left: 0.5cm;
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.content{
+    margin-top: 2.5cm;
+    margin-right: 60%;
+    margin-left: 5cm;
+}
+.content h1{
+    font-size: 56px;
+    
+}
+.content p{
+    font-size: 20px;
+}
+
+.butn img{
+    height: 69;
+    width: 200px;
+    cursor: pointer;
+    margin-right: 5mm;
+
+}
+
+.butn{
+    margin-left: 5cm;
+    border: none;
+    
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Spartan.woff);
+}
+
+
